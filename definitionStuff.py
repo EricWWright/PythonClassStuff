@@ -15,11 +15,11 @@ def circleArea():
     PI = 3.14159265359
 
 #1 get a radius
-    x = input("what is the radius? ")
+    radius = input("what is the radius? ")
 
 #2 compute the area
-    x = float(x)
-    area = x * x * PI
+    radius = float(radius)
+    area = radius * radius * PI
 
 #3 display information back
     print("the area of the circle is:", area)
