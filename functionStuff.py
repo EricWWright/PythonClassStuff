@@ -46,6 +46,10 @@ if question1 == "yes" or question1=="y" or question1=="sure":
 elif question1 == "no" or question1 == "nope":
     question2 = input("Would you like to get the side of a triangle? ")
 
+else:
+    print("Okay bye")
+    varStop = input("End Program")
+
 if question2 == "yes" or question2=="y" or question2=="sure":
     ax = input("Enter the first side of the triangle ")
     bx = input("Enter the second side of the triangle ")
@@ -54,6 +58,10 @@ if question2 == "yes" or question2=="y" or question2=="sure":
 
 elif question2 == "no" or question2 == "nope":
     question3 = input("Would you like to add two numbers together? ")
+
+else:
+    print("Okay bye")
+    varStop = input("End Program")
 
 if question3 =="yes" or question3=="y" or question3=="sure":
     num1x = input("enter a number ")
