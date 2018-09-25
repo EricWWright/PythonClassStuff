@@ -4,6 +4,7 @@ from tkinter import font
 import time
 import calendar
 import datetime
+import winsound
 
 def current_time():
     seconds = calendar.timegm(time.gmtime())
@@ -46,7 +47,3 @@ lbl = ttk.Label(root, textvariable=txt, font=fnt, foreground="Red", background="
 lbl.place(relx=0.5, rely=0.5, anchor=CENTER)
 
 root.mainloop()
-
-# s = Sound()
-# s.read('sound.wav')
-# s.play()
