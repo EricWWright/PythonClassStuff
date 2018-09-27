@@ -14,9 +14,9 @@ def current_time():
     hours = minutes // 60
     current_hour = hours % 24
     if current_hour >= 12:
-        tag =" PM"
-    else:
         tag = " AM"
+    else:
+        tag = " PM"
     #set the time zone
     current_hour = current_hour -6
     #format the output
