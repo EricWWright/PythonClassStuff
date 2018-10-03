@@ -2,17 +2,6 @@
 #10/18
 #password program
 
-def check_account(username, password):
-    username = username
-    password = password
-    enterusername = input("enter your username: ")
-    enterpassword = input("enter your password: ")
-    if username == enterusername and password == enterpassword or enterusername == "admin":
-        return True
-    else:
-        print("Access Denied!")
-        check_account(username, password)
-
 def get_password():
     print("Your password must start with a capitol letter \n and must contain at least 1 symbol \n and must be at least 10 characters long")
     password = input("Enter your password: ")
@@ -33,6 +22,17 @@ def get_username():
         print("Your username didn't meet the requirements")
         get_username() 
 
+def check_account(username, password):
+    username = username
+    password = password
+    enterusername = input("enter your username: ")
+    enterpassword = input("enter your password: ")
+    if username == enterusername and password == enterpassword or enterusername == "admin":
+        return True
+    else:
+        print("Access Denied!")
+        check_account(username, password)
+        
 def menu():
     choice = 0
     while choice == 0:
