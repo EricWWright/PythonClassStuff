@@ -1,32 +1,32 @@
-print("this is a string")
-name = "Eric"
-print(type(name))
-fact = "my favorite game is GTA 5"
-print("my name is " + name + " and I like " + fact)
-# or
-print("my name is ", name, " and i like ", fact)
-# or
-message = "my name is " + name + " and I like " + fact
-print(message)
+# print("this is a string")
+# name = "Eric"
+# print(type(name))
+# fact = "my favorite game is GTA 5"
+# print("my name is " + name + " and I like " + fact)
+# # or
+# print("my name is ", name, " and i like ", fact)
+# # or
+# message = "my name is " + name + " and I like " + fact
+# print(message)
 
-# vars
-num = 8
-num2 = 14
+# # vars
+# num = 8
+# num2 = 14
 
-print(num+num2)
+# print(num+num2)
 
-answer = num - num2
-print(answer)
+# answer = num - num2
+# print(answer)
 
-# vars
-word = "sweet"
-word1 = "cool"
-word2 = "mean"
-word3 = "dark"
-word4 = "mate"
+# # vars
+# word = "sweet"
+# word1 = "cool"
+# word2 = "mean"
+# word3 = "dark"
+# word4 = "mate"
 
-print("I took a sip of " + word + " tea that was nice and " + word1 + ". With my " + word + " " + word1 + " tea I ate a " + word2 +
-      " steak that was cooked to perfection. It started to get " + word3 + " so me and my " + word4 + " decided to call it a night.")
+# print("I took a sip of " + word + " tea that was nice and " + word1 + ". With my " + word + " " + word1 + " tea I ate a " + word2 +
+#       " steak that was cooked to perfection. It started to get " + word3 + " so me and my " + word4 + " decided to call it a night.")
 
 # update vars to inputs
 word = input("Type an adjective ")
